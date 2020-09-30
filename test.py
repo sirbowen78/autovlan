@@ -30,4 +30,4 @@ if __name__ == "__main__":
         threads.append(t)
         t.start()
     for thread in threads:
-        t.join()
+        thread.join()
